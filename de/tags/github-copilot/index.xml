@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GitHub Copilot on Mein Blog</title>
+    <link>https://KleinerCodeDrago.github.io/Blog/de/tags/github-copilot/</link>
+    <description>Recent content in GitHub Copilot on Mein Blog</description>
+    <generator>Hugo -- 0.136.1</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Wed, 09 Oct 2024 15:00:00 +0000</lastBuildDate>
+    <atom:link href="https://KleinerCodeDrago.github.io/Blog/de/tags/github-copilot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Copilot erneut besuchen — Was hat sich geändert?</title>
+      <link>https://KleinerCodeDrago.github.io/Blog/de/posts/revisiting-copilot/</link>
+      <pubDate>Wed, 09 Oct 2024 15:00:00 +0000</pubDate>
+      <guid>https://KleinerCodeDrago.github.io/Blog/de/posts/revisiting-copilot/</guid>
+      <description>Meine Erfahrungen mit GitHub Copilot und wie es sich im Vergleich zu ChatGPT beim Programmieren schlägt.</description>
+      <content:encoded><![CDATA[<p>Also, ich bin wieder bei GitHub Copilot, nachdem ich eine Weile pausiert habe. Aber lassen Sie mich von Anfang an sagen: Das ist nicht mein erster Versuch mit Copilot. Tatsächlich habe ich es benutzt, als es hauptsächlich Inline-Vorschläge anbot — diese halbtransparenten Autovervollständigungs-Prompts, die erscheinen, während man tippt. Sie wissen schon, wenn man anfängt, <code>public static</code> zu tippen und dann kommt so etwas wie: „Hey, möchtest du das mit <code>void myMethod()</code> vervollständigen?“ So in etwa.</p>
+<p>Damals fühlte es sich eher wie eine auf Steroiden basierende Autovervollständigung an. Wenn man einen komplexeren Code-Schnipsel generieren wollte, musste man einen speziellen Kommentar als Prompt schreiben, und Copilot versuchte, den Rest der Funktion oder Klasse zu vervollständigen. Der generierte Code erschien immer noch als einfacher Inline-Vorschlag, ohne Chat oder erweiterte Interaktionen. Und wenn es einem nicht gefiel? Nun, man konnte Tab drücken, um es zu akzeptieren, oder Esc, um es zu ignorieren, aber das war es auch schon. Es gab keinen Copilot Chat, wie wir ihn heute kennen.</p>
+<h3 id="was-gibts-neues">Was gibt’s Neues?</h3>
+<p>Schneller Vorlauf zu heute, ich habe mein Abonnement wieder aktiviert, um zu sehen, was sich geändert hat. Eine Sache, die mir sofort auffiel, ist, wie viel interaktiver der neue Copilot Chat im Vergleich zu meiner ersten Erfahrung geworden ist. Man kann jetzt tatsächlich ein Chat-Fenster in seiner IDE haben, und es ist kontextsensitiv, das heißt, es versucht, relevante Dateien oder sogar die gesamte Projektstruktur einzubeziehen. Das ist besonders nützlich, wenn ich mit kleineren Projekten oder einfacheren Modulen arbeite – perfekt, um schnelle Vorschläge zu bekommen, ohne zwischen Dokumentationen hin- und herzuspringen.</p>
+<p>Das heißt, ich benutze immer noch gerne den Inline-Chat, der eine Art Mittelweg ist. Er führt keine klassische Chat-Historie, sondern ist eher so, als würde man kleine Fragen direkt im Code stellen und präzise Antworten erhalten. Für schnelle Änderungen und Vorschläge ist es schneller und prägnanter.</p>
+<h3 id="eine-neue-funktion-spracheingabe">Eine neue Funktion: Spracheingabe</h3>
+<p>Eine Sache, die ich noch nicht ausprobiert habe, aber die meine Aufmerksamkeit erregt hat, ist die neue Spracheingabe. Anscheinend kann man jetzt seine Programmier-Anfragen direkt sprechen. Klingt interessant, aber ich hatte noch keine Gelegenheit, zu sehen, ob es den Arbeitsablauf wirklich verbessert oder nur ein Gimmick ist. Aber da ich es mag, ChatGPT mündlich um Programmierhilfe zu bitten, werde ich es vielleicht irgendwann ausprobieren.</p>
+<h3 id="das-gute-das-schlechte-und-das-mergen">Das Gute, das Schlechte und das Mergen</h3>
+<p>Ein Bereich, in dem ich fand, dass Copilot noch Verbesserungspotential hat, ist die Auto-Merge-Funktion. Ich habe versucht, sie zu nutzen, um vorgeschlagene Code-Schnipsel automatisch in meine bestehenden Dateien zu integrieren, in der Erwartung, dass sie intelligent ersetzt oder an die Struktur angepasst werden, die ich bereits aufgebaut habe. Stattdessen wird der neue Code meistens einfach ans Ende der Datei angehängt. Es ist frustrierend, wenn ich auf ein intelligentes Merge hoffe und am Ende mehr manuelle Aufräumarbeit habe, als wenn ich den Code einfach selbst kopiert und eingefügt hätte.</p>
+<h3 id="fazit">Fazit</h3>
+<p>Am Ende denke ich nicht, dass ich Copilot langfristig behalten werde. Obwohl es sich seit meinen ersten Tagen damit definitiv verbessert hat, habe ich bereits ChatGPT Plus, auf das ich mich stark für Programmierberatung und kontextbasierte Fragen verlasse. Für mich fühlt sich die Nutzung von Copilot letztlich redundant an. Klar, es ist großartig für schnelle Vorschläge und Hilfe in der IDE, aber ich wechsle immer wieder zu ChatGPT, wenn ich eine ausführlichere Antwort oder eine schrittweise Diskussion der Code-Logik benötige.</p>
+<p>Wenn ich ChatGPT nicht bereits hätte, könnte sich Copilot vielleicht lohnen. Aber mit beiden bezahle ich im Wesentlichen für zwei Tools, die vieles abdecken, was sich überschneidet. Also werde ich mein Copilot-Abonnement für jetzt kündigen und bei ChatGPT bleiben.</p>
+<p>Bis zum nächsten Mal! Vielleicht werde ich es wieder in Betracht ziehen, wenn Copilot die Sprachunterstützung nahtlos integriert oder die Auto-Merge-Funktion verbessert.</p>
+<p>Prost!</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

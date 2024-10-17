@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GitHub Copilot on My Blog</title>
+    <link>https://KleinerCodeDrago.github.io/Blog/en/tags/github-copilot/</link>
+    <description>Recent content in GitHub Copilot on My Blog</description>
+    <generator>Hugo -- 0.136.1</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 09 Oct 2024 15:00:00 +0000</lastBuildDate>
+    <atom:link href="https://KleinerCodeDrago.github.io/Blog/en/tags/github-copilot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Revisiting GitHub Copilot — What’s Changed?</title>
+      <link>https://KleinerCodeDrago.github.io/Blog/en/posts/revisiting-copilot/</link>
+      <pubDate>Wed, 09 Oct 2024 15:00:00 +0000</pubDate>
+      <guid>https://KleinerCodeDrago.github.io/Blog/en/posts/revisiting-copilot/</guid>
+      <description>My experience with GitHub Copilot and how it compares to ChatGPT for coding.</description>
+      <content:encoded><![CDATA[<p>So, I’m back with GitHub Copilot after a bit of a hiatus. But let me start by saying, this isn’t my first rodeo with Copilot. I actually used it back when it was primarily offering Inline Suggestions—those semi-transparent auto-completion prompts that show up as you’re typing. You know, when you start typing public static and then it’s like, “Hey, do you want to complete this with void myMethod()?” That kind of thing.</p>
+<p>Back then, it felt more like a fancy auto-complete on steroids. If you wanted to generate a more complex code snippet, you had to write a specific comment prompt, and Copilot would try its best to provide the rest of the function or class. The generated code would still show up as a simple inline suggestion, with no chat or advanced interactions. And if you didn’t like it? Well, you could hit Tab to accept or Esc to ignore it, but that was the extent of it. There was no Copilot Chat as we know it today.</p>
+<p>What’s New Now?
+Fast forward to today, I re-subscribed to see what’s changed. One thing I immediately noticed is how much more interactive the new Copilot Chat has become compared to my first experience. You can now have an actual chat window inside your IDE, and it’s context-aware, meaning it tries to pull in relevant files or even the entire project structure. It’s especially useful when I’m dealing with smaller projects or simpler modules—perfect for getting quick suggestions without jumping back and forth between documentation.</p>
+<p>That said, I still like using the Inline-Chat, which is sort of a middle ground. It doesn’t maintain a classic chat history, and it’s more like dropping small questions directly in the code and getting concise responses. For quick tweaks and suggestions, it’s faster and more to the point.</p>
+<p>A New Feature: Voice Input
+One thing I haven’t tried yet but caught my attention is the new Voice Input. Apparently, you can now speak your coding queries directly. Sounds interesting, but I haven’t had the chance to see if it actually improves the workflow or if it’s just a gimmick. But given how I like to verbally ask ChatGPT for coding advice, I might give it a shot at some point.</p>
+<p>The Good, the Bad, and the Merging
+One area where I found Copilot still needs work is in its Auto-Merge feature. I’ve tried using it to automatically integrate suggested code snippets into my existing files, expecting it to intelligently replace or adapt to the structure I’ve already built. But instead, more often than not, it simply pastes the new code at the end of the file. It’s frustrating when I’m hoping for a smart merge and end up doing more manual cleanup than I would have if I’d just copy-pasted the code myself.</p>
+<p>Final Thoughts
+In the end, I don’t think I’ll keep Copilot long-term. While it’s definitely improved since my early days with it, I already have ChatGPT Plus, which I rely on heavily for coding advice and context-based questions. For me, using Copilot ends up feeling redundant. Sure, it’s great for quick suggestions and in-IDE help, but I find myself switching back to ChatGPT whenever I need a more in-depth answer or want to discuss code logic step-by-step.</p>
+<p>If I didn’t already have ChatGPT, Copilot might be worth the subscription. But with both, I’m essentially paying for two tools that cover a lot of the same ground. So, for now, I’ll be canceling my Copilot subscription and sticking with ChatGPT.</p>
+<p>Until next time! Maybe when Copilot integrates voice support seamlessly or improves the Auto-Merge, I’ll reconsider.</p>
+<p>Cheers!</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

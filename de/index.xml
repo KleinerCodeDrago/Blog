@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mein Blog</title>
+    <link>https://KleinerCodeDrago.github.io/Blog/de/</link>
+    <description>Recent content on Mein Blog</description>
+    <generator>Hugo -- 0.136.1</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Wed, 16 Oct 2024 14:00:00 +0000</lastBuildDate>
+    <atom:link href="https://KleinerCodeDrago.github.io/Blog/de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Experience with SUNO V3.0: Exploring the AI Music Generator</title>
+      <link>https://KleinerCodeDrago.github.io/Blog/de/posts/suno1-to-v3-expirience/</link>
+      <pubDate>Wed, 16 Oct 2024 14:00:00 +0000</pubDate>
+      <guid>https://KleinerCodeDrago.github.io/Blog/de/posts/suno1-to-v3-expirience/</guid>
+      <description>A detailed look at SUNO V3.0, the AI music generator, and its improvements over previous versions.</description>
+      <content:encoded><![CDATA[<p>In letzter Zeit habe ich viel mit SUNO, der Musik-AI, experimentiert – insbesondere mit der neuesten Version, SUNO V3.0. Diese Version bringt wesentliche Verbesserungen, insbesondere bei der Songlänge und der Qualität der generierten Stücke. Die Fortschritte seit Version 1 sind deutlich spürbar, obwohl einige frühere Features immer noch bestehen.</p>
+<h2 id="erweiterung-der-lieder-und-dynamische-songstruktur">Erweiterung der Lieder und dynamische Songstruktur</h2>
+<p>Eines der Features, das seit den frühen Versionen von SUNO erhalten geblieben ist, ist die Möglichkeit, Lieder <strong>zu erweitern</strong>. Du kannst auf ein generiertes Lied klicken und die Option &rsquo;erweitern&rsquo; wählen, um neue Lyrics hinzuzufügen. Die AI generiert dann einen neuen Songteil, der dem ersten ähnelt, aber mit den neuen Texten arbeitet. Anschließend kannst du beide Teile kombinieren, um ein längeres Lied zu erhalten. Dies lässt sich theoretisch mehrfach wiederholen, um immer längere Songs zu erstellen. Das System funktioniert also immer noch, allerdings war es in früheren Versionen deutlich kostenintensiver, da für jeden neuen Teil und das Kombinieren zusätzliche Credits anfielen.</p>
+<p>Mit Version 3.0 hat sich das Kreditproblem etwas entschärft, da man nun längere Lieder direkt in einem Durchgang generieren kann. Es ist möglich, dass Songs jetzt bis zu etwa <strong>drei bis vier Minuten</strong> lang werden, ohne dass man sie manuell erweitern muss. Die genaue maximale Länge kann je nach Input im Custom Lyrics Mode variieren.</p>
+<h2 id="der-custom-lyrics-mode">Der Custom Lyrics Mode</h2>
+<p>Im <strong>Custom Lyrics Mode</strong> kannst du nicht nur die Songstruktur (wie [Refrain], [Verse] oder [Outro]) bestimmen, sondern auch instrumentale Anweisungen in eckigen Klammern hinzufügen, zum Beispiel [Gitarrensolo] oder [Streicher im Hintergrund]. Es ist wichtig, diese Anweisungen auf Englisch zu formulieren, da die AI englische Instruktionen präziser umsetzt. Dadurch hast du eine große Kontrolle über die musikalische Untermalung des Songs, was sehr nützlich ist, wenn du eine spezifische Stimmung oder Dynamik erzeugen möchtest.</p>
+<h2 id="neue-features-instrumental--und-remix-modus">Neue Features: Instrumental- und Remix-Modus</h2>
+<p>Neben den bisherigen Funktionen gibt es jetzt auch den <strong>instrumentalen Modus</strong>, den ich allerdings noch nicht getestet habe. Dieser Modus erlaubt es, reine Instrumentalstücke zu generieren, was für manche Nutzer interessant sein könnte. Zusätzlich gibt es einen <strong>Remix-Modus</strong>, bei dem man eine MP3-Datei hochladen und daraus entweder neue Lyrics oder eine neue musikalische Interpretation generieren lassen kann. Das klingt vielversprechend und werde ich in Zukunft sicher ausprobieren.</p>
+<h2 id="nutzung-der-kostenlosen-credits">Nutzung der kostenlosen Credits</h2>
+<p>Trotz all dieser Neuerungen arbeite ich ausschließlich mit den kostenlosen Credits, die SUNO täglich zur Verfügung stellt. Ich habe noch nie Geld für zusätzliche Credits ausgegeben und nutze sie hauptsächlich, um Joke-Lieder für Freunde zu erstellen – kleine personalisierte Songs, die oft als Klingelton verwendet werden. Obwohl diese Lieder nicht immer perfekt sind, haben sie oft Ohrwurmpotenzial und machen einfach Spaß.</p>
+<h2 id="fazit">Fazit</h2>
+<p>SUNO V3.0 hat viele der früheren Einschränkungen beseitigt. Die Möglichkeit, längere Lieder zu generieren und die verbesserten Funktionen im Custom Lyrics Mode machen die AI zu einem mächtigen Tool für kreative Musikprojekte. Es ist beeindruckend, wie viel man mit den kostenlosen Credits erreichen kann, und ich freue mich darauf, noch tiefer in die Möglichkeiten von SUNO einzutauchen, insbesondere den Remix-Modus.</p>
+<p>Wenn du nach einer flexib</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Meine Erfahrungen mit E-Book-Readern: Kindle Oasis und Books Tab X</title>
+      <link>https://KleinerCodeDrago.github.io/Blog/de/posts/erfahrung-ebook-reader/</link>
+      <pubDate>Tue, 15 Oct 2024 11:30:03 +0000</pubDate>
+      <guid>https://KleinerCodeDrago.github.io/Blog/de/posts/erfahrung-ebook-reader/</guid>
+      <description>Eine Rezension der E-Book-Reader Kindle Oasis und Books Tab X.</description>
+      <content:encoded><![CDATA[<h3 id="einführung">Einführung</h3>
+<p>Als langjähriger Nutzer von E-Readern habe ich mehrere Jahre mit dem <strong>Kindle Oasis</strong> verbracht. Kürzlich habe ich mich in die Welt der <strong>Android-basierten E-Reader</strong> mit dem <strong>Books Tab X</strong> gewagt und möchte hier meine Gedanken teilen. Es gibt vieles, das ich an beiden Geräten schätze—und einige Frustrationen, insbesondere wenn es um die Unterstützung von Formaten, Portabilität und Vielseitigkeit geht.</p>
+<h3 id="der-kindle-oasis-ein-premium-leseerlebnis-mit-frustrierenden-einschränkungen">Der Kindle Oasis: Ein Premium-Leseerlebnis mit frustrierenden Einschränkungen</h3>
+<p>Ich besitze einen <strong>Kindle Oasis</strong>, vermutlich die dritte Generation, die 2019 veröffentlicht wurde. Dieses Gerät bietet mehrere Premium-Funktionen, wie zum Beispiel:</p>
+<h4 id="vorteile">Vorteile:</h4>
+<ul>
+<li><strong>7-Zoll E-Ink-Display mit 300 ppi Auflösung</strong>: Die hohe Auflösung und das scharfe Display machen das Lesen, egal ob Manga oder textlastige E-Books, zu einem Vergnügen.</li>
+<li><strong>25-LEDs mit einstellbarem warmem Licht</strong>: Diese Funktion ist perfekt zum Lesen bei Nacht, da ich sowohl die Helligkeit als auch die Wärme des Lichts für ein angenehmeres Erlebnis anpassen kann.</li>
+<li><strong>Physische Blättertasten</strong>: Diese Tasten sind ein Lebensretter für das einhändige Lesen, besonders wenn ich zu müde bin, um den Bildschirm zu berühren.</li>
+</ul>
+<p>Trotz seines hochwertigen Designs hat der Oasis einige große Nachteile:</p>
+<h4 id="nachteile">Nachteile:</h4>
+<ul>
+<li><strong>Eingeschränkte Formatunterstützung</strong>: Der Kindle hat <strong>noch nie EPUB unterstützt</strong>. Amazon hielt lange an <strong>MOBI</strong> fest und wechselte später zu seinem proprietären <strong>AZW3 (Kindle Format 8)</strong>. Diese Änderung hat es schwieriger gemacht, E-Books außerhalb von Amazon auf den Kindle zu übertragen, ohne sie über <strong>Calibre</strong> zu konvertieren oder den <strong>Send-to-Kindle</strong>-Service zu verwenden.</li>
+<li><strong>Browser- und App-Probleme</strong>: Der <strong>Browser des Kindle Oasis</strong> ist praktisch unbrauchbar. Er ist langsam und hat Schwierigkeiten, selbst mit den einfachsten Webseiten klarzukommen. Noch schlimmer ist, dass er keine Apps wie <strong>Libby</strong> oder <strong>Onleihe</strong> unterstützt, was das Ausleihen von E-Books aus Bibliotheken unmöglich macht.</li>
+</ul>
+<p>Trotz dieser Mängel liebe ich den <strong>Kindle Oasis</strong> wegen seines <strong>Formfaktors</strong> und des <strong>Lesekomforts</strong>. Aber als jemand, der es schätzt, E-Books tatsächlich zu besitzen und eine Vielzahl von Formaten zu nutzen, fallen die Einschränkungen wirklich ins Gewicht.</p>
+<h3 id="das-books-tab-x-vielseitigkeit-auf-kosten-der-portabilität">Das Books Tab X: Vielseitigkeit auf Kosten der Portabilität</h3>
+<p>Kürzlich habe ich das <strong>Books Tab X</strong> gekauft, ein riesiges 13,3-Zoll-Android-basiertes E-Ink-Tablet. Obwohl es nicht so portabel wie mein Kindle ist, bietet es ein Maß an Vielseitigkeit, das der Kindle einfach nicht erreichen kann.</p>
+<h4 id="vorteile-1">Vorteile:</h4>
+<ul>
+<li><strong>App-Unterstützung</strong>: Da es sich um ein <strong>Android-basiertes</strong> Gerät handelt, ermöglicht mir das Tab X, Apps wie <strong>Libby</strong> und <strong>Onleihe</strong> zu installieren, was das Ausleihen von E-Books erheblich erleichtert. Ich muss keine Formate mehr konvertieren und kann sogar <strong>RSS-Reader</strong> wie <strong>Pocket</strong> verwenden, um mit Artikeln Schritt zu halten.</li>
+<li><strong>Größeres Display</strong>: Für das Lesen von <strong>Manga</strong> und anderen visuell dichten Inhalten ist das 13,3-Zoll-Display ein echter Game-Changer. Die größere Größe erleichtert das Lesen, ohne ständig hineinzoomen zu müssen, was auf dem kleineren Kindle Oasis ein Problem war.</li>
+</ul>
+<h4 id="nachteile-1">Nachteile:</h4>
+<ul>
+<li><strong>Größe und Gewicht</strong>: Das <strong>Books Tab X</strong> ist im Vergleich zum Kindle riesig, und ich muss mich noch daran gewöhnen, es mit mir herumzutragen. Es ist nicht so praktisch für zwanglose Lesesitzungen während der Mahlzeiten oder beim Entspannen.</li>
+</ul>
+<p>Obwohl es nicht so kompakt ist, sehe ich mich das Books Tab X für längere Lesesitzungen zu Hause nutzen, wo ich den großen Bildschirm schätzen kann. Die Möglichkeit, auf Apps zuzugreifen und eine größere Auswahl an Formaten zu lesen, macht dieses Gerät ideal für jemanden wie mich, der Flexibilität über Portabilität schätzt.</p>
+<h3 id="fazit-kindle-oasis-vs-books-tab-x">Fazit: Kindle Oasis vs. Books Tab X</h3>
+<p>Nach der Nutzung beider Geräte lautet mein Fazit: Der <strong>Kindle Oasis</strong> ist perfekt für Leser, die tief in das Amazon-Ökosystem eingebunden sind. Seine Premium-Funktionen und das ergonomische Design machen ihn zu einer großartigen Wahl für entspanntes, tägliches Lesen—insbesondere wenn man hauptsächlich Bücher von <strong>Amazon</strong> kauft. Allerdings schränkt der Mangel an Unterstützung für gängige Formate wie <strong>EPUB</strong> und die Unfähigkeit, ausgeliehene E-Books nativ zu verwalten, seine Attraktivität stark ein.</p>
+<p>Auf der anderen Seite bietet das <strong>Books Tab X</strong> ein vielseitigeres Leseerlebnis, insbesondere für diejenigen, die Bibliotheksdienste nutzen oder mehr Kontrolle darüber haben möchten, was sie lesen. Aber die große Größe bedeutet, dass es nicht die tragbarste Option ist, daher eignet es sich besser für den Gebrauch zu Hause als für das Lesen unterwegs.</p>
+<p>Wenn Sie sich zwischen den beiden entscheiden müssen, hängt die Wahl letztendlich von Ihren Lesegewohnheiten ab. Wenn Sie in das Amazon-Ökosystem eingebunden sind und etwas Leichtes wollen, könnte der <strong>Kindle Oasis</strong> immer noch die beste Wahl sein. Wenn Sie jedoch alles lesen möchten, insbesondere ausgeliehene Bücher und Artikel, ist das <strong>Books Tab X</strong> der klare Gewinner.</p>
+<p>Ich werde das Tab X in den kommenden Wochen weiter testen und möglicherweise einen Folgeartikel darüber schreiben, wie gut ich mich daran gewöhnt habe.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>GitHub Copilot erneut besuchen — Was hat sich geändert?</title>
+      <link>https://KleinerCodeDrago.github.io/Blog/de/posts/revisiting-copilot/</link>
+      <pubDate>Wed, 09 Oct 2024 15:00:00 +0000</pubDate>
+      <guid>https://KleinerCodeDrago.github.io/Blog/de/posts/revisiting-copilot/</guid>
+      <description>Meine Erfahrungen mit GitHub Copilot und wie es sich im Vergleich zu ChatGPT beim Programmieren schlägt.</description>
+      <content:encoded><![CDATA[<p>Also, ich bin wieder bei GitHub Copilot, nachdem ich eine Weile pausiert habe. Aber lassen Sie mich von Anfang an sagen: Das ist nicht mein erster Versuch mit Copilot. Tatsächlich habe ich es benutzt, als es hauptsächlich Inline-Vorschläge anbot — diese halbtransparenten Autovervollständigungs-Prompts, die erscheinen, während man tippt. Sie wissen schon, wenn man anfängt, <code>public static</code> zu tippen und dann kommt so etwas wie: „Hey, möchtest du das mit <code>void myMethod()</code> vervollständigen?“ So in etwa.</p>
+<p>Damals fühlte es sich eher wie eine auf Steroiden basierende Autovervollständigung an. Wenn man einen komplexeren Code-Schnipsel generieren wollte, musste man einen speziellen Kommentar als Prompt schreiben, und Copilot versuchte, den Rest der Funktion oder Klasse zu vervollständigen. Der generierte Code erschien immer noch als einfacher Inline-Vorschlag, ohne Chat oder erweiterte Interaktionen. Und wenn es einem nicht gefiel? Nun, man konnte Tab drücken, um es zu akzeptieren, oder Esc, um es zu ignorieren, aber das war es auch schon. Es gab keinen Copilot Chat, wie wir ihn heute kennen.</p>
+<h3 id="was-gibts-neues">Was gibt’s Neues?</h3>
+<p>Schneller Vorlauf zu heute, ich habe mein Abonnement wieder aktiviert, um zu sehen, was sich geändert hat. Eine Sache, die mir sofort auffiel, ist, wie viel interaktiver der neue Copilot Chat im Vergleich zu meiner ersten Erfahrung geworden ist. Man kann jetzt tatsächlich ein Chat-Fenster in seiner IDE haben, und es ist kontextsensitiv, das heißt, es versucht, relevante Dateien oder sogar die gesamte Projektstruktur einzubeziehen. Das ist besonders nützlich, wenn ich mit kleineren Projekten oder einfacheren Modulen arbeite – perfekt, um schnelle Vorschläge zu bekommen, ohne zwischen Dokumentationen hin- und herzuspringen.</p>
+<p>Das heißt, ich benutze immer noch gerne den Inline-Chat, der eine Art Mittelweg ist. Er führt keine klassische Chat-Historie, sondern ist eher so, als würde man kleine Fragen direkt im Code stellen und präzise Antworten erhalten. Für schnelle Änderungen und Vorschläge ist es schneller und prägnanter.</p>
+<h3 id="eine-neue-funktion-spracheingabe">Eine neue Funktion: Spracheingabe</h3>
+<p>Eine Sache, die ich noch nicht ausprobiert habe, aber die meine Aufmerksamkeit erregt hat, ist die neue Spracheingabe. Anscheinend kann man jetzt seine Programmier-Anfragen direkt sprechen. Klingt interessant, aber ich hatte noch keine Gelegenheit, zu sehen, ob es den Arbeitsablauf wirklich verbessert oder nur ein Gimmick ist. Aber da ich es mag, ChatGPT mündlich um Programmierhilfe zu bitten, werde ich es vielleicht irgendwann ausprobieren.</p>
+<h3 id="das-gute-das-schlechte-und-das-mergen">Das Gute, das Schlechte und das Mergen</h3>
+<p>Ein Bereich, in dem ich fand, dass Copilot noch Verbesserungspotential hat, ist die Auto-Merge-Funktion. Ich habe versucht, sie zu nutzen, um vorgeschlagene Code-Schnipsel automatisch in meine bestehenden Dateien zu integrieren, in der Erwartung, dass sie intelligent ersetzt oder an die Struktur angepasst werden, die ich bereits aufgebaut habe. Stattdessen wird der neue Code meistens einfach ans Ende der Datei angehängt. Es ist frustrierend, wenn ich auf ein intelligentes Merge hoffe und am Ende mehr manuelle Aufräumarbeit habe, als wenn ich den Code einfach selbst kopiert und eingefügt hätte.</p>
+<h3 id="fazit">Fazit</h3>
+<p>Am Ende denke ich nicht, dass ich Copilot langfristig behalten werde. Obwohl es sich seit meinen ersten Tagen damit definitiv verbessert hat, habe ich bereits ChatGPT Plus, auf das ich mich stark für Programmierberatung und kontextbasierte Fragen verlasse. Für mich fühlt sich die Nutzung von Copilot letztlich redundant an. Klar, es ist großartig für schnelle Vorschläge und Hilfe in der IDE, aber ich wechsle immer wieder zu ChatGPT, wenn ich eine ausführlichere Antwort oder eine schrittweise Diskussion der Code-Logik benötige.</p>
+<p>Wenn ich ChatGPT nicht bereits hätte, könnte sich Copilot vielleicht lohnen. Aber mit beiden bezahle ich im Wesentlichen für zwei Tools, die vieles abdecken, was sich überschneidet. Also werde ich mein Copilot-Abonnement für jetzt kündigen und bei ChatGPT bleiben.</p>
+<p>Bis zum nächsten Mal! Vielleicht werde ich es wieder in Betracht ziehen, wenn Copilot die Sprachunterstützung nahtlos integriert oder die Auto-Merge-Funktion verbessert.</p>
+<p>Prost!</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Warum ich mich für Hugo anstelle von WordPress für meinen Blog entschieden habe</title>
+      <link>https://KleinerCodeDrago.github.io/Blog/de/posts/why-i-chose-hugo-over-wordpress/</link>
+      <pubDate>Wed, 09 Oct 2024 14:00:00 +0000</pubDate>
+      <guid>https://KleinerCodeDrago.github.io/Blog/de/posts/why-i-chose-hugo-over-wordpress/</guid>
+      <description>Eine Erklärung, warum ich Hugo als statischen Seiten-Generator gewählt habe, anstelle von WordPress oder Wix.</description>
+      <content:encoded><![CDATA[<p>Hallo, hallo. Willkommen auf meinem Blog, oder sollte ich sagen, dem ersten Beitrag einer hoffentlich langen Serie technischer Überlegungen, zufälliger Erfahrungen und wahrscheinlich viel zu vieler Posts über Webtools. Für diesen ersten Beitrag wollte ich den Gedankengang hinter der Einrichtung dieses Blogs erläutern und warum ich mich für Hugo entschieden habe, anstatt für die üblichen Verdächtigen wie WordPress oder Wix.</p>
+<p>Zunächst einmal: Ich bin kein Fan traditioneller Web-Baukästen. WordPress mit seiner veralteten Benutzeroberfläche, dem langsamen Backend und der Abhängigkeit von Plugins fühlt sich schwerfällig und klobig an. Es ist großartig, wenn man schnell eine funktionsreiche Website erstellen muss, aber für jemanden, der einfach nur schreiben möchte, ohne unnötigen Ballast oder serverseitige Kopfschmerzen, ist es einfach nicht die richtige Wahl. Und Dienste wie Wix? Sicher, sie sind anfängerfreundlich, aber sie binden dich oft an ihre Plattform und schränken die Anpassungsmöglichkeiten und Kontrolle ein.</p>
+<p>Deshalb habe ich nach Alternativen gesucht und bin schließlich bei Hugo gelandet – einem statischen Seiten-Generator, der so leichtgewichtig wie flexibel ist. Ich war zunächst von Hugo angezogen, weil es so gut mit GitHub Pages zusammenarbeitet, das nur statische Seiten unterstützt. Du schreibst deinen Inhalt in Markdown (was ich großartig finde), pushst ihn zu GitHub, und voilà! Ein voll funktionsfähiger Blog, kostenlos gehostet.</p>
+<p>Aber das ist nicht der einzige Grund, warum ich mich für Hugo entschieden habe. Es ist die Freiheit. Anders als die meisten Website-Baukästen, die dich zwingen, vorgefertigte Themes und Vorlagen zu verwenden, gibt dir Hugo die Möglichkeit, deine eigenen Themes von Grund auf zu entwerfen oder bestehende bis zur letzten Codezeile anzupassen. Keine Notwendigkeit, für „Premium-Themes“ zu bezahlen, nur um eine Überschrift zu ändern oder ein Layout anzupassen.</p>
+<p>Natürlich überlege ich noch, ob ich für diesen Blog ein vorhandenes Theme verwenden oder mit meinen eigenen Designs experimentieren soll. Das Schöne daran ist, dass ich nicht festgelegt bin. Ich kann weiter experimentieren, bis ich eine Optik und ein Gefühl gefunden habe, das perfekt passt. Mit Hugo bin ich nicht auf eine Themen-Galerie oder eine Reihe vordefinierter Optionen beschränkt. Ich habe die volle Kontrolle darüber, wie meine Seite aussieht und funktioniert.</p>
+<p>Warum schreibe ich das alles? Weil der Prozess selbst – das Einrichten von Hugo, das Konfigurieren von GitHub Pages und das Lernen, Inhalte in einer statischen Seitenumgebung zu verwalten – eine unterhaltsame, wenn auch herausfordernde Lernerfahrung war. Dieser Blog ist genauso ein persönlicher Raum, um meine Gedanken zu teilen, wie er ein technisches Experiment ist.</p>
+<p>Für alle, die darüber nachdenken, einen Blog zu starten: Nehmt euch einen Moment Zeit, um zu überlegen, was euch wichtig ist. Wenn es Geschwindigkeit, Einfachheit und die Befriedigung ist, etwas zu bauen, das genau auf deine Bedürfnisse zugeschnitten ist, dann überspringt vielleicht WordPress und probiert Hugo aus. Es gibt eine gewisse Lernkurve, klar, aber die Belohnung ist eine Website, die wirklich dir gehört.</p>
+<p>Bis zum nächsten Mal! Vielleicht habe ich bis dahin ein eigenes Theme, das ich präsentieren kann. Oder zumindest weniger Tippfehler.</p>
+<p>Viele Grüße!</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

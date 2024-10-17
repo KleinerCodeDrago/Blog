@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI on Mein Blog</title>
+    <link>https://KleinerCodeDrago.github.io/Blog/de/tags/ai/</link>
+    <description>Recent content in AI on Mein Blog</description>
+    <generator>Hugo -- 0.136.1</generator>
+    <language>de-DE</language>
+    <lastBuildDate>Wed, 16 Oct 2024 14:00:00 +0000</lastBuildDate>
+    <atom:link href="https://KleinerCodeDrago.github.io/Blog/de/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Experience with SUNO V3.0: Exploring the AI Music Generator</title>
+      <link>https://KleinerCodeDrago.github.io/Blog/de/posts/suno1-to-v3-expirience/</link>
+      <pubDate>Wed, 16 Oct 2024 14:00:00 +0000</pubDate>
+      <guid>https://KleinerCodeDrago.github.io/Blog/de/posts/suno1-to-v3-expirience/</guid>
+      <description>A detailed look at SUNO V3.0, the AI music generator, and its improvements over previous versions.</description>
+      <content:encoded><![CDATA[<p>In letzter Zeit habe ich viel mit SUNO, der Musik-AI, experimentiert – insbesondere mit der neuesten Version, SUNO V3.0. Diese Version bringt wesentliche Verbesserungen, insbesondere bei der Songlänge und der Qualität der generierten Stücke. Die Fortschritte seit Version 1 sind deutlich spürbar, obwohl einige frühere Features immer noch bestehen.</p>
+<h2 id="erweiterung-der-lieder-und-dynamische-songstruktur">Erweiterung der Lieder und dynamische Songstruktur</h2>
+<p>Eines der Features, das seit den frühen Versionen von SUNO erhalten geblieben ist, ist die Möglichkeit, Lieder <strong>zu erweitern</strong>. Du kannst auf ein generiertes Lied klicken und die Option &rsquo;erweitern&rsquo; wählen, um neue Lyrics hinzuzufügen. Die AI generiert dann einen neuen Songteil, der dem ersten ähnelt, aber mit den neuen Texten arbeitet. Anschließend kannst du beide Teile kombinieren, um ein längeres Lied zu erhalten. Dies lässt sich theoretisch mehrfach wiederholen, um immer längere Songs zu erstellen. Das System funktioniert also immer noch, allerdings war es in früheren Versionen deutlich kostenintensiver, da für jeden neuen Teil und das Kombinieren zusätzliche Credits anfielen.</p>
+<p>Mit Version 3.0 hat sich das Kreditproblem etwas entschärft, da man nun längere Lieder direkt in einem Durchgang generieren kann. Es ist möglich, dass Songs jetzt bis zu etwa <strong>drei bis vier Minuten</strong> lang werden, ohne dass man sie manuell erweitern muss. Die genaue maximale Länge kann je nach Input im Custom Lyrics Mode variieren.</p>
+<h2 id="der-custom-lyrics-mode">Der Custom Lyrics Mode</h2>
+<p>Im <strong>Custom Lyrics Mode</strong> kannst du nicht nur die Songstruktur (wie [Refrain], [Verse] oder [Outro]) bestimmen, sondern auch instrumentale Anweisungen in eckigen Klammern hinzufügen, zum Beispiel [Gitarrensolo] oder [Streicher im Hintergrund]. Es ist wichtig, diese Anweisungen auf Englisch zu formulieren, da die AI englische Instruktionen präziser umsetzt. Dadurch hast du eine große Kontrolle über die musikalische Untermalung des Songs, was sehr nützlich ist, wenn du eine spezifische Stimmung oder Dynamik erzeugen möchtest.</p>
+<h2 id="neue-features-instrumental--und-remix-modus">Neue Features: Instrumental- und Remix-Modus</h2>
+<p>Neben den bisherigen Funktionen gibt es jetzt auch den <strong>instrumentalen Modus</strong>, den ich allerdings noch nicht getestet habe. Dieser Modus erlaubt es, reine Instrumentalstücke zu generieren, was für manche Nutzer interessant sein könnte. Zusätzlich gibt es einen <strong>Remix-Modus</strong>, bei dem man eine MP3-Datei hochladen und daraus entweder neue Lyrics oder eine neue musikalische Interpretation generieren lassen kann. Das klingt vielversprechend und werde ich in Zukunft sicher ausprobieren.</p>
+<h2 id="nutzung-der-kostenlosen-credits">Nutzung der kostenlosen Credits</h2>
+<p>Trotz all dieser Neuerungen arbeite ich ausschließlich mit den kostenlosen Credits, die SUNO täglich zur Verfügung stellt. Ich habe noch nie Geld für zusätzliche Credits ausgegeben und nutze sie hauptsächlich, um Joke-Lieder für Freunde zu erstellen – kleine personalisierte Songs, die oft als Klingelton verwendet werden. Obwohl diese Lieder nicht immer perfekt sind, haben sie oft Ohrwurmpotenzial und machen einfach Spaß.</p>
+<h2 id="fazit">Fazit</h2>
+<p>SUNO V3.0 hat viele der früheren Einschränkungen beseitigt. Die Möglichkeit, längere Lieder zu generieren und die verbesserten Funktionen im Custom Lyrics Mode machen die AI zu einem mächtigen Tool für kreative Musikprojekte. Es ist beeindruckend, wie viel man mit den kostenlosen Credits erreichen kann, und ich freue mich darauf, noch tiefer in die Möglichkeiten von SUNO einzutauchen, insbesondere den Remix-Modus.</p>
+<p>Wenn du nach einer flexib</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

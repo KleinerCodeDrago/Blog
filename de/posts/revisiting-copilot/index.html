@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>GitHub Copilot erneut besuchen — Was hat sich geändert? | Mein Blog</title>
+<meta name="keywords" content="GitHub Copilot, Coding KI-Tools, GitHub Pages, Hugo Blog">
+<meta name="description" content="Meine Erfahrungen mit GitHub Copilot und wie es sich im Vergleich zu ChatGPT beim Programmieren schlägt.">
+<meta name="author" content="Just a fellow creature">
+<link rel="canonical" href="https://KleinerCodeDrago.github.io/Blog/de/posts/revisiting-copilot/">
+<link crossorigin="anonymous" href="/Blog/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css" integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://KleinerCodeDrago.github.io/Blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://KleinerCodeDrago.github.io/Blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://KleinerCodeDrago.github.io/Blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://KleinerCodeDrago.github.io/Blog/apple-touch-icon.png">
+<link rel="mask-icon" href="https://KleinerCodeDrago.github.io/Blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="de" href="https://KleinerCodeDrago.github.io/Blog/de/posts/revisiting-copilot/">
+<link rel="alternate" hreflang="en" href="https://KleinerCodeDrago.github.io/Blog/en/posts/revisiting-copilot/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="GitHub Copilot erneut besuchen — Was hat sich geändert?" />
+<meta property="og:description" content="Meine Erfahrungen mit GitHub Copilot und wie es sich im Vergleich zu ChatGPT beim Programmieren schlägt." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://KleinerCodeDrago.github.io/Blog/de/posts/revisiting-copilot/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-10-09T15:00:00+00:00" />
+<meta property="article:modified_time" content="2024-10-09T15:00:00+00:00" /><meta property="og:site_name" content="My Blog" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="GitHub Copilot erneut besuchen — Was hat sich geändert?"/>
+<meta name="twitter:description" content="Meine Erfahrungen mit GitHub Copilot und wie es sich im Vergleich zu ChatGPT beim Programmieren schlägt."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://KleinerCodeDrago.github.io/Blog/de/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "GitHub Copilot erneut besuchen — Was hat sich geändert?",
+      "item": "https://KleinerCodeDrago.github.io/Blog/de/posts/revisiting-copilot/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "GitHub Copilot erneut besuchen — Was hat sich geändert?",
+  "name": "GitHub Copilot erneut besuchen — Was hat sich geändert?",
+  "description": "Meine Erfahrungen mit GitHub Copilot und wie es sich im Vergleich zu ChatGPT beim Programmieren schlägt.",
+  "keywords": [
+    "GitHub Copilot", "Coding KI-Tools", "GitHub Pages", "Hugo Blog"
+  ],
+  "articleBody": "Also, ich bin wieder bei GitHub Copilot, nachdem ich eine Weile pausiert habe. Aber lassen Sie mich von Anfang an sagen: Das ist nicht mein erster Versuch mit Copilot. Tatsächlich habe ich es benutzt, als es hauptsächlich Inline-Vorschläge anbot — diese halbtransparenten Autovervollständigungs-Prompts, die erscheinen, während man tippt. Sie wissen schon, wenn man anfängt, public static zu tippen und dann kommt so etwas wie: „Hey, möchtest du das mit void myMethod() vervollständigen?“ So in etwa.\nDamals fühlte es sich eher wie eine auf Steroiden basierende Autovervollständigung an. Wenn man einen komplexeren Code-Schnipsel generieren wollte, musste man einen speziellen Kommentar als Prompt schreiben, und Copilot versuchte, den Rest der Funktion oder Klasse zu vervollständigen. Der generierte Code erschien immer noch als einfacher Inline-Vorschlag, ohne Chat oder erweiterte Interaktionen. Und wenn es einem nicht gefiel? Nun, man konnte Tab drücken, um es zu akzeptieren, oder Esc, um es zu ignorieren, aber das war es auch schon. Es gab keinen Copilot Chat, wie wir ihn heute kennen.\nWas gibt’s Neues? Schneller Vorlauf zu heute, ich habe mein Abonnement wieder aktiviert, um zu sehen, was sich geändert hat. Eine Sache, die mir sofort auffiel, ist, wie viel interaktiver der neue Copilot Chat im Vergleich zu meiner ersten Erfahrung geworden ist. Man kann jetzt tatsächlich ein Chat-Fenster in seiner IDE haben, und es ist kontextsensitiv, das heißt, es versucht, relevante Dateien oder sogar die gesamte Projektstruktur einzubeziehen. Das ist besonders nützlich, wenn ich mit kleineren Projekten oder einfacheren Modulen arbeite – perfekt, um schnelle Vorschläge zu bekommen, ohne zwischen Dokumentationen hin- und herzuspringen.\nDas heißt, ich benutze immer noch gerne den Inline-Chat, der eine Art Mittelweg ist. Er führt keine klassische Chat-Historie, sondern ist eher so, als würde man kleine Fragen direkt im Code stellen und präzise Antworten erhalten. Für schnelle Änderungen und Vorschläge ist es schneller und prägnanter.\nEine neue Funktion: Spracheingabe Eine Sache, die ich noch nicht ausprobiert habe, aber die meine Aufmerksamkeit erregt hat, ist die neue Spracheingabe. Anscheinend kann man jetzt seine Programmier-Anfragen direkt sprechen. Klingt interessant, aber ich hatte noch keine Gelegenheit, zu sehen, ob es den Arbeitsablauf wirklich verbessert oder nur ein Gimmick ist. Aber da ich es mag, ChatGPT mündlich um Programmierhilfe zu bitten, werde ich es vielleicht irgendwann ausprobieren.\nDas Gute, das Schlechte und das Mergen Ein Bereich, in dem ich fand, dass Copilot noch Verbesserungspotential hat, ist die Auto-Merge-Funktion. Ich habe versucht, sie zu nutzen, um vorgeschlagene Code-Schnipsel automatisch in meine bestehenden Dateien zu integrieren, in der Erwartung, dass sie intelligent ersetzt oder an die Struktur angepasst werden, die ich bereits aufgebaut habe. Stattdessen wird der neue Code meistens einfach ans Ende der Datei angehängt. Es ist frustrierend, wenn ich auf ein intelligentes Merge hoffe und am Ende mehr manuelle Aufräumarbeit habe, als wenn ich den Code einfach selbst kopiert und eingefügt hätte.\nFazit Am Ende denke ich nicht, dass ich Copilot langfristig behalten werde. Obwohl es sich seit meinen ersten Tagen damit definitiv verbessert hat, habe ich bereits ChatGPT Plus, auf das ich mich stark für Programmierberatung und kontextbasierte Fragen verlasse. Für mich fühlt sich die Nutzung von Copilot letztlich redundant an. Klar, es ist großartig für schnelle Vorschläge und Hilfe in der IDE, aber ich wechsle immer wieder zu ChatGPT, wenn ich eine ausführlichere Antwort oder eine schrittweise Diskussion der Code-Logik benötige.\nWenn ich ChatGPT nicht bereits hätte, könnte sich Copilot vielleicht lohnen. Aber mit beiden bezahle ich im Wesentlichen für zwei Tools, die vieles abdecken, was sich überschneidet. Also werde ich mein Copilot-Abonnement für jetzt kündigen und bei ChatGPT bleiben.\nBis zum nächsten Mal! Vielleicht werde ich es wieder in Betracht ziehen, wenn Copilot die Sprachunterstützung nahtlos integriert oder die Auto-Merge-Funktion verbessert.\nProst!\n",
+  "wordCount" : "610",
+  "inLanguage": "de",
+  "datePublished": "2024-10-09T15:00:00Z",
+  "dateModified": "2024-10-09T15:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Just a fellow creature"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://KleinerCodeDrago.github.io/Blog/de/posts/revisiting-copilot/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mein Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://KleinerCodeDrago.github.io/Blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://KleinerCodeDrago.github.io/Blog/de/" accesskey="h" title="Mein Blog (Alt + H)">Mein Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="https://KleinerCodeDrago.github.io/Blog/en/" title="English"
+                            aria-label="English">En</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://KleinerCodeDrago.github.io/Blog/de/">Home</a>&nbsp;»&nbsp;<a href="https://KleinerCodeDrago.github.io/Blog/de/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      GitHub Copilot erneut besuchen — Was hat sich geändert?
+    </h1>
+    <div class="post-description">
+      Meine Erfahrungen mit GitHub Copilot und wie es sich im Vergleich zu ChatGPT beim Programmieren schlägt.
+    </div>
+    <div class="post-meta"><span title='2024-10-09 15:00:00 +0000 UTC'>09.10.2024</span>&nbsp;·&nbsp;3 Minuten&nbsp;·&nbsp;610 Wörter&nbsp;·&nbsp;Just a fellow creature&nbsp;|&nbsp;Übersetzungen:
+<ul class="i18n_list">
+    <li>
+        <a href="https://KleinerCodeDrago.github.io/Blog/en/posts/revisiting-copilot/">En</a>
+    </li>
+</ul>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Inhaltsverzeichnis</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#was-gibts-neues">Was gibt’s Neues?</a></li>
+        <li><a href="#eine-neue-funktion-spracheingabe">Eine neue Funktion: Spracheingabe</a></li>
+        <li><a href="#das-gute-das-schlechte-und-das-mergen">Das Gute, das Schlechte und das Mergen</a></li>
+        <li><a href="#fazit">Fazit</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>Also, ich bin wieder bei GitHub Copilot, nachdem ich eine Weile pausiert habe. Aber lassen Sie mich von Anfang an sagen: Das ist nicht mein erster Versuch mit Copilot. Tatsächlich habe ich es benutzt, als es hauptsächlich Inline-Vorschläge anbot — diese halbtransparenten Autovervollständigungs-Prompts, die erscheinen, während man tippt. Sie wissen schon, wenn man anfängt, <code>public static</code> zu tippen und dann kommt so etwas wie: „Hey, möchtest du das mit <code>void myMethod()</code> vervollständigen?“ So in etwa.</p>
+<p>Damals fühlte es sich eher wie eine auf Steroiden basierende Autovervollständigung an. Wenn man einen komplexeren Code-Schnipsel generieren wollte, musste man einen speziellen Kommentar als Prompt schreiben, und Copilot versuchte, den Rest der Funktion oder Klasse zu vervollständigen. Der generierte Code erschien immer noch als einfacher Inline-Vorschlag, ohne Chat oder erweiterte Interaktionen. Und wenn es einem nicht gefiel? Nun, man konnte Tab drücken, um es zu akzeptieren, oder Esc, um es zu ignorieren, aber das war es auch schon. Es gab keinen Copilot Chat, wie wir ihn heute kennen.</p>
+<h3 id="was-gibts-neues">Was gibt’s Neues?<a hidden class="anchor" aria-hidden="true" href="#was-gibts-neues">#</a></h3>
+<p>Schneller Vorlauf zu heute, ich habe mein Abonnement wieder aktiviert, um zu sehen, was sich geändert hat. Eine Sache, die mir sofort auffiel, ist, wie viel interaktiver der neue Copilot Chat im Vergleich zu meiner ersten Erfahrung geworden ist. Man kann jetzt tatsächlich ein Chat-Fenster in seiner IDE haben, und es ist kontextsensitiv, das heißt, es versucht, relevante Dateien oder sogar die gesamte Projektstruktur einzubeziehen. Das ist besonders nützlich, wenn ich mit kleineren Projekten oder einfacheren Modulen arbeite – perfekt, um schnelle Vorschläge zu bekommen, ohne zwischen Dokumentationen hin- und herzuspringen.</p>
+<p>Das heißt, ich benutze immer noch gerne den Inline-Chat, der eine Art Mittelweg ist. Er führt keine klassische Chat-Historie, sondern ist eher so, als würde man kleine Fragen direkt im Code stellen und präzise Antworten erhalten. Für schnelle Änderungen und Vorschläge ist es schneller und prägnanter.</p>
+<h3 id="eine-neue-funktion-spracheingabe">Eine neue Funktion: Spracheingabe<a hidden class="anchor" aria-hidden="true" href="#eine-neue-funktion-spracheingabe">#</a></h3>
+<p>Eine Sache, die ich noch nicht ausprobiert habe, aber die meine Aufmerksamkeit erregt hat, ist die neue Spracheingabe. Anscheinend kann man jetzt seine Programmier-Anfragen direkt sprechen. Klingt interessant, aber ich hatte noch keine Gelegenheit, zu sehen, ob es den Arbeitsablauf wirklich verbessert oder nur ein Gimmick ist. Aber da ich es mag, ChatGPT mündlich um Programmierhilfe zu bitten, werde ich es vielleicht irgendwann ausprobieren.</p>
+<h3 id="das-gute-das-schlechte-und-das-mergen">Das Gute, das Schlechte und das Mergen<a hidden class="anchor" aria-hidden="true" href="#das-gute-das-schlechte-und-das-mergen">#</a></h3>
+<p>Ein Bereich, in dem ich fand, dass Copilot noch Verbesserungspotential hat, ist die Auto-Merge-Funktion. Ich habe versucht, sie zu nutzen, um vorgeschlagene Code-Schnipsel automatisch in meine bestehenden Dateien zu integrieren, in der Erwartung, dass sie intelligent ersetzt oder an die Struktur angepasst werden, die ich bereits aufgebaut habe. Stattdessen wird der neue Code meistens einfach ans Ende der Datei angehängt. Es ist frustrierend, wenn ich auf ein intelligentes Merge hoffe und am Ende mehr manuelle Aufräumarbeit habe, als wenn ich den Code einfach selbst kopiert und eingefügt hätte.</p>
+<h3 id="fazit">Fazit<a hidden class="anchor" aria-hidden="true" href="#fazit">#</a></h3>
+<p>Am Ende denke ich nicht, dass ich Copilot langfristig behalten werde. Obwohl es sich seit meinen ersten Tagen damit definitiv verbessert hat, habe ich bereits ChatGPT Plus, auf das ich mich stark für Programmierberatung und kontextbasierte Fragen verlasse. Für mich fühlt sich die Nutzung von Copilot letztlich redundant an. Klar, es ist großartig für schnelle Vorschläge und Hilfe in der IDE, aber ich wechsle immer wieder zu ChatGPT, wenn ich eine ausführlichere Antwort oder eine schrittweise Diskussion der Code-Logik benötige.</p>
+<p>Wenn ich ChatGPT nicht bereits hätte, könnte sich Copilot vielleicht lohnen. Aber mit beiden bezahle ich im Wesentlichen für zwei Tools, die vieles abdecken, was sich überschneidet. Also werde ich mein Copilot-Abonnement für jetzt kündigen und bei ChatGPT bleiben.</p>
+<p>Bis zum nächsten Mal! Vielleicht werde ich es wieder in Betracht ziehen, wenn Copilot die Sprachunterstützung nahtlos integriert oder die Auto-Merge-Funktion verbessert.</p>
+<p>Prost!</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://KleinerCodeDrago.github.io/Blog/de/tags/github-copilot/">GitHub Copilot</a></li>
+      <li><a href="https://KleinerCodeDrago.github.io/Blog/de/tags/coding/">Coding</a></li>
+      <li><a href="https://KleinerCodeDrago.github.io/Blog/de/tags/ki-tools/">KI-Tools</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://KleinerCodeDrago.github.io/Blog/de/posts/erfahrung-ebook-reader/">
+    <span class="title">« Vorherige</span>
+    <br>
+    <span>Meine Erfahrungen mit E-Book-Readern: Kindle Oasis und Books Tab X</span>
+  </a>
+  <a class="next" href="https://KleinerCodeDrago.github.io/Blog/de/posts/why-i-chose-hugo-over-wordpress/">
+    <span class="title">Nächste »</span>
+    <br>
+    <span>Warum ich mich für Hugo anstelle von WordPress für meinen Blog entschieden habe</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://KleinerCodeDrago.github.io/Blog/de/">Mein Blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'Kopieren';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'Kopiert!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'Kopieren';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

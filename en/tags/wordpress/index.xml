@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>WordPress on My Blog</title>
+    <link>https://KleinerCodeDrago.github.io/Blog/en/tags/wordpress/</link>
+    <description>Recent content in WordPress on My Blog</description>
+    <generator>Hugo -- 0.136.1</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 09 Oct 2024 14:00:00 +0000</lastBuildDate>
+    <atom:link href="https://KleinerCodeDrago.github.io/Blog/en/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I Chose Hugo Over WordPress for My Blog</title>
+      <link>https://KleinerCodeDrago.github.io/Blog/en/posts/why-i-chose-hugo-over-wordpress/</link>
+      <pubDate>Wed, 09 Oct 2024 14:00:00 +0000</pubDate>
+      <guid>https://KleinerCodeDrago.github.io/Blog/en/posts/why-i-chose-hugo-over-wordpress/</guid>
+      <description>&lt;p&gt;Hello, hello. Welcome to my blog, or should I say, the first post of what might become a long series of technical musings, random experiences, and probably way too many posts about web tools. For this initial post, I wanted to explain the thought process behind setting up this blog and why I went for Hugo instead of the usual suspects like WordPress or Wix.&lt;/p&gt;
+&lt;p&gt;To start off, let me say: I’m not a fan of traditional web builders. WordPress, with its outdated UI, slow backend, and reliance on plugins, feels heavy and clunky. It’s great if you need to build a full-featured site quickly, but for someone who just wants to write without unnecessary bloat or server-side headaches, it’s just not the right fit. And services like Wix? Sure, they’re beginner-friendly, but they often lock you into their platform, restricting customization and control.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Hello, hello. Welcome to my blog, or should I say, the first post of what might become a long series of technical musings, random experiences, and probably way too many posts about web tools. For this initial post, I wanted to explain the thought process behind setting up this blog and why I went for Hugo instead of the usual suspects like WordPress or Wix.</p>
+<p>To start off, let me say: I’m not a fan of traditional web builders. WordPress, with its outdated UI, slow backend, and reliance on plugins, feels heavy and clunky. It’s great if you need to build a full-featured site quickly, but for someone who just wants to write without unnecessary bloat or server-side headaches, it’s just not the right fit. And services like Wix? Sure, they’re beginner-friendly, but they often lock you into their platform, restricting customization and control.</p>
+<p>That’s why I looked for alternatives and eventually landed on Hugo—a static site generator that’s as lightweight as it is flexible. I was initially drawn to it because Hugo plays so well with GitHub Pages, which only supports static sites. You write your content in Markdown (which I’m a huge fan of), push it to GitHub, and voilà! A fully functioning blog, hosted for free.</p>
+<p>But that’s not the only reason I went with Hugo. It’s the freedom. Unlike most web builders that force you to use pre-built themes and templates, Hugo gives you the power to design your own themes from scratch or modify existing ones down to the last line of code. No need to pay for “premium themes” just to change a header or tweak a layout.</p>
+<p>Of course, I’m still figuring out if I want to stick to a pre-existing theme for this blog or experiment with my own designs. The beauty is that I’m not stuck. I can keep experimenting until I find a look and feel that fits perfectly. With Hugo, I’m not limited to a theme gallery or a set of pre-defined options. I have complete control over how my site looks and behaves.</p>
+<p>So, why am I bothering to write all this? Because the process itself—setting up Hugo, configuring GitHub Pages, and learning to manage content in a static site environment—has been a fun, albeit challenging, learning experience. This blog is as much a personal space to share my thoughts as it is a technical experiment.</p>
+<p>For anyone considering starting a blog: take a moment to think about what matters to you. If it’s speed, simplicity, and the satisfaction of building something tailored to your exact needs, maybe skip WordPress and try Hugo. There’s a bit of a learning curve, sure, but the payoff is a website that’s truly your own.</p>
+<p>Until next time! Maybe by then, I’ll have a custom theme to show off. Or at least fewer typos.</p>
+<p>Cheers!</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
